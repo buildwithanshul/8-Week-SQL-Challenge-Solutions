@@ -1,4 +1,4 @@
-```sql
+
 DROP TABLE IF EXISTS RUNNERS;
 
 CREATE TABLE RUNNERS ("runner_id" INTEGER, "registration_date" DATE);
@@ -10,7 +10,7 @@ VALUES
 	(2, '2021-01-03'),
 	(3, '2021-01-08'),
 	(4, '2021-01-15');
-```
+
 DROP TABLE IF EXISTS CUSTOMER_ORDERS;
 
 CREATE TABLE CUSTOMER_ORDERS (
@@ -221,7 +221,7 @@ USING distance::double precision;
 ALTER TABLE runner_orders_temp
 ALTER COLUMN duration TYPE double precision
 USING duration::double precision;
-```
+
 
 
 
